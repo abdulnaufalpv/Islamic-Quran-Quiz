@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quran Ayah Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quran Ayah Finder</h1>
+
+    <!-- Input for Surah and Ayah -->
+    <input class="note" type="number" id="suraNumber" placeholder="Enter Surah Number (e.g., 2)">
+    <input class="note" type="number" id="ayaNumber" placeholder="Enter Ayah Number (e.g., 255)">
+    <button class="note" onclick="findAya()">Find Ayah</button>
+
+    <!-- Result Section -->
+    <blockquote class="pu_blq">
+      <div id="result" class="result"></div>
+    </blockquote>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
